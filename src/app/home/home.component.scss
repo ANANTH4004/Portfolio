@@ -51,28 +51,3 @@
   .icon{
     width: 40px;
   }
-  .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 120px;
-  }
-
-  .form-control {
-    border: 1px solid rgb(8, 8, 8);
-    border-radius: 4px;
-    padding: 12px;
-    margin: 8px 0;
-    width: 600px;
-  }
-
-  .form-control:focus {
-    outline: none;
-    border-color: #555;
-  }
-  .form-group{
-    padding: 15px;
-  }
-  textarea{
-    height: 200px;
-  }
