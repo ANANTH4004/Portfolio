@@ -1,0 +1,37 @@
+
+a {
+  color:black;
+  background-color: transparent;
+  margin: 0 10px;
+}
+
+a:hover {
+  color: black;
+  background-color:rgb(0, 128, 255); /* change the background color of the navbar items to gray when the mouse hovers over them */
+}
+
+
+mat-toolbar-row {
+    display: flex;
+    justify-content: center; /* center the items in the navbar */
+    padding: 30px;
+    color: black;
+
+  }
+  
+  mat-toolbar {
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    align-items: center; /* center the items vertically */
+    border: 1px solid black; /* add a border to the navbar */
+    border-radius: 20px;
+    width: fit-content;
+  }
+  
+  .custom-color {
+    // background-color: rgb(9, 214, 214);
+    background-color: transparent;
+  }
+ 
+  
