@@ -20,6 +20,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { writingAnimation } from './Writing-animation';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 
@@ -34,6 +35,7 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     ContactComponent,
     HomeComponent,
+    SkillsComponent,
     
   ],
   imports: [
