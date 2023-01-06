@@ -1,5 +1,6 @@
 .page {
     display: flex;
+    
   }
   
   .page-image {
@@ -17,6 +18,8 @@
     padding: 30px;
     line-break:normal;
     line-height: 1cm;
+    
+   
   }
   
   .cenDiv {
@@ -52,10 +55,11 @@
     width: 40px;
   }
   .form-container {
+    padding-top: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 120px;
+    padding-right: 50px;
   }
 
   .form-control {
@@ -64,6 +68,7 @@
     padding: 12px;
     margin: 8px 0;
     width: 600px;
+   
   }
 
   .form-control:focus {
@@ -71,7 +76,7 @@
     border-color: #555;
   }
   .form-group{
-    padding: 15px;
+    padding: 10px;
   }
   textarea{
     height: 200px;
