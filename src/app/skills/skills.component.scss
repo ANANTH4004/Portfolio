@@ -15,12 +15,13 @@ mat-card {
     display: inline-block;
     height: 280px;
     text-align: center;
-   // background-color:rgb(81, 96, 143);
+    //background-color:rgb(238, 243, 219);
     border-radius: 40px;
     border-color:rgb(0, 11, 11);
     transition: transform 0.5s ,box-shadow 0.3s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
   // box-shadow: -8px 0 16px 0 rgba(4, 4, 4, 0.2);
     &:active{
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);

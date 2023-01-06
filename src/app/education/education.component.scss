@@ -1,39 +1,174 @@
 
-mat-card-title{
-    font-size:28px;
-    font-family: 'Roboto', cursive;
-  }
-  mat-card {
-      margin: 25px;
-      width: 25%;
-      display: inline-block;
-      height: 500px;
-      text-align: center;
-     // background-color:rgb(81, 96, 143);
-      border-radius: 20px;
-      border-color:rgb(0, 11, 11);
-      transition: transform 0.5s ;
-      transform-style: preserve-3d;
-      &:hover {
-        transform: scale(1.06);
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+// // mat-card-title{
+// //     font-size:28px;
+// //     font-family: 'Roboto', cursive;
+// //   }
+// //   mat-card {
+// //       margin: 25px;
+// //       width: 25%;
+// //       display: inline-block;
+// //       height: 450px;
      
-      }
-      &-header {
-        // background-color: mat-color($primary);
-        color: #070707;
+// //       border-radius: 20px;
+// //       border-color:rgb(0, 11, 11);
+// //       transition: transform 0.5s ;
+// //       transform-style: preserve-3d;
+// //       &:hover {
+// //         transform: scale(1.06);
+// //         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+     
+// //       }
+// //       &-header {
+     
+// //         color: #070707;
        
-      }
-    }
+// //       }
+// //     }
   
-    .centerDiv{
-      display: flex;
-      justify-content: center;
-    }
-  
-    .cardHeader{
+// //     .centerDiv{
+// //       padding-top: 20px;
+// //       display: flex;
+// //       justify-content: center;
      
-      display: flex;
-      justify-content: center;
-      padding-bottom: 20px;
-    }
+// //     }
+  
+ 
+// //     .title{
+// //       font-weight: bold; 
+// //       font-size:22px;
+// //       font-family:Roboto;
+// //       padding-top: 25px;
+// //       text-align: center;
+// //     }
+
+// //     .content{
+// //       padding-top: 5px;
+// //     }
+// mat-card {
+//   margin: 25px;
+//   width: 25%;
+//   display: inline-block;
+//   height: 450px;
+//   border-radius: 20px;
+//   border-color: rgb(0, 11, 11);
+//   transition: transform 0.5s;
+//   transform-style: preserve-3d;
+//   &:hover {
+//     transform: scale(1.06);
+//     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+//   }
+//   &-header {
+//     color: #070707;
+//   }
+// }
+
+// @media (max-width: 600px) {
+//   mat-card {
+//     width: 100%;
+//   }
+// }
+
+// .centerDiv {
+//   padding-top: 20px;
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .matCardImage {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+//   border-radius: 10px;
+// }
+
+// mat-card-title {
+//   font-size: 28px;
+//   font-family: 'Roboto', cursive;
+// }
+
+// .title {
+//   font-weight: bold;
+//   font-size: 22px;
+//   font-family: Roboto;
+//   padding-top: 25px;
+//   text-align: center;
+// }
+
+// .content {
+//   padding-top: 5px;
+// }
+
+.container {
+ // justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10%;
+}
+
+@media (max-width: 600px) {
+  img {
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+  }
+}
+
+mat-card {
+  margin: 25px;
+  display: inline-block;
+  height: 450px;
+  text-align: center;
+  border-radius: 20px;
+  border-color: rgb(0, 11, 11);
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  &:hover {
+    transform: scale(1.06);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  &-header {
+    color: #070707;
+  }
+}
+
+@media (max-width: 600px) {
+  mat-card {
+    width: 100%;
+  }
+}
+.title {
+  font-weight: bold;
+  font-size: 22px;
+  font-family: Roboto;
+  padding-top: 25px;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  padding-left: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 18px;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
+
