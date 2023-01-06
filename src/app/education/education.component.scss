@@ -1,0 +1,39 @@
+
+mat-card-title{
+    font-size:28px;
+    font-family: 'Roboto', cursive;
+  }
+  mat-card {
+      margin: 25px;
+      width: 25%;
+      display: inline-block;
+      height: 500px;
+      text-align: center;
+     // background-color:rgb(81, 96, 143);
+      border-radius: 20px;
+      border-color:rgb(0, 11, 11);
+      transition: transform 0.5s ;
+      transform-style: preserve-3d;
+      &:hover {
+        transform: scale(1.06);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+     
+      }
+      &-header {
+        // background-color: mat-color($primary);
+        color: #070707;
+       
+      }
+    }
+  
+    .centerDiv{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .cardHeader{
+     
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+    }

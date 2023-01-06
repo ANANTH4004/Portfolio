@@ -21,6 +21,7 @@ import { writingAnimation } from './Writing-animation';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
+import { EducationComponent } from './education/education.component';
 
 
 
@@ -36,6 +37,7 @@ import { SkillsComponent } from './skills/skills.component';
     ContactComponent,
     HomeComponent,
     SkillsComponent,
+    EducationComponent,
     
   ],
   imports: [
