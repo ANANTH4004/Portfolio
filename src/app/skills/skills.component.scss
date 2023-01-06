@@ -1,24 +1,57 @@
+@use '@angular/material' as mat;
+@import '@angular/material/theming';
+$primary: mat-palette($mat-indigo);
+$secondary: mat-palette($mat-pink, A200, A100, A400);
+$theme: mat-light-theme($primary, $secondary);
 
+
+mat-card-title{
+  font-size:28px;
+  font-family: 'Roboto', cursive;
+}
 mat-card {
     margin: 25px;
     width: 25%;
     display: inline-block;
     height: 280px;
     text-align: center;
-    background-color: rgb(197, 106, 36);
+   // background-color:rgb(81, 96, 143);
     border-radius: 40px;
     border-color:rgb(0, 11, 11);
+    transition: transform 0.5s ,box-shadow 0.3s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  // box-shadow: -8px 0 16px 0 rgba(4, 4, 4, 0.2);
+    &:active{
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    // box-shadow: -8px 0 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    &:hover {
+      transform: scale(1.2);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      //box-shadow: -8px 0 16px 0 rgba(0, 0, 0, 0.2);
+    //  transform: rotateX(360deg) rotateY(360deg);
+    }
+    &-header {
+      // background-color: mat-color($primary);
+      color: #070707;
+      border-radius: 40px;
+    }
   }
+
   .centerDiv{
     display: flex;
     justify-content: center;
   }
 
   .cardHeader{
-    display: flex;
    
+    display: flex;
     justify-content: center;
+    padding-bottom: 20px;
   }
+  
+  
 
   
 
