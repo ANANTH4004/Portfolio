@@ -81,3 +81,26 @@
   textarea{
     height: 200px;
   }
+
+  @media (max-width: 600px) {
+    .page {
+      flex-direction: column;
+      border-radius: 5vw;
+    }
+    .page-image {
+      
+      width: 100%;
+    }
+    .page-content {
+      padding: 20px;
+    }
+    .form-control {
+     // width: 80vw;
+      width: 100%;
+    }
+  }
+  @viewport {
+    width: device-width;
+    zoom: 0;
+  }
+    

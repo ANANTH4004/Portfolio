@@ -11,6 +11,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatCardModule} from '@angular/material/card';
@@ -22,6 +23,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
+import { RnavbarComponent } from './rnavbar/rnavbar.component';
 
 
 
@@ -38,6 +40,7 @@ import { EducationComponent } from './education/education.component';
     HomeComponent,
     SkillsComponent,
     EducationComponent,
+    RnavbarComponent,
     
   ],
   imports: [
@@ -47,7 +50,7 @@ import { EducationComponent } from './education/education.component';
     BrowserAnimationsModule,
     NoopAnimationsModule,
     MatFormFieldModule,
-  
+    MatMenuModule,
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
