@@ -1,4 +1,4 @@
-<mat-toolbar class="custom-color" color="primary">
+<mat-toolbar class="custom-color">
     <button mat-icon-button (click)="sidenav.toggle()" *ngIf="isMobile$ |async">
       <mat-icon>menu</mat-icon>
     </button>
@@ -6,7 +6,7 @@
       <a mat-button routerLink="/home">
         <mat-icon>home</mat-icon>Home
       </a>
-      <a mat-button routerLink="/home">
+      <a mat-button routerLink="/experience">
         <mat-icon>assignment</mat-icon> Experience
       </a>
       <a mat-button routerLink="/skills">
@@ -25,12 +25,14 @@
   </mat-toolbar>
   
   <mat-sidenav-container class="sidenav-container" *ngIf="isMobile$ | async">
-    <mat-sidenav #sidenav mode="over" [fixedInViewport]="true">
+    <mat-sidenav #sidenav mode="side" [fixedInViewport]="true">
         <mat-nav-list>
+          <a mat-list-item routerLink="/home" (click)="sidenav.close()">Home</a>
           <a mat-list-item routerLink="/home" (click)="sidenav.close()">Home</a>
           <a mat-list-item routerLink="/experience" (click)="sidenav.close()">Experience</a>
           <a mat-list-item routerLink="/skills" (click)="sidenav.close()">Skills</a>
           <a mat-list-item routerLink="/education" (click)="sidenav.close()">Education</a>
+          
         </mat-nav-list>
       </mat-sidenav>
     <!-- <mat-sidenav-content>

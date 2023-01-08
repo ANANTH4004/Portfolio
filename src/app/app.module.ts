@@ -24,6 +24,9 @@ import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { RnavbarComponent } from './rnavbar/rnavbar.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { SnavbarComponent } from './snavbar/snavbar.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 
@@ -41,6 +44,9 @@ import { RnavbarComponent } from './rnavbar/rnavbar.component';
     SkillsComponent,
     EducationComponent,
     RnavbarComponent,
+    ExperienceComponent,
+    SnavbarComponent,
+    ProjectsComponent,
     
   ],
   imports: [

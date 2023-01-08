@@ -57,12 +57,15 @@
 //       padding: 10px;
 //     }
 //   }
-  
+
+
 mat-card-title{
     font-size:28px;
-    font-family: 'Roboto', cursive;
+    font-weight: bold;
+    font-family: 'Lato';
   }
   mat-card {
+    background-color: rgb(194, 224, 224);
       margin: 25px;
       width: 25%;
       display: inline-block;

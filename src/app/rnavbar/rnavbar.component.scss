@@ -49,6 +49,7 @@
       width: 200px;
     }
   mat-toolbar-row {
+
     display: flex;
     justify-content: flex-end; /* align the items to the right on mobile devices */
     padding: 30px;
@@ -80,20 +81,23 @@
   
   
   mat-toolbar-row {
-     
-    
       padding: 30px;
       color: black;
     }
     
     mat-toolbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
       margin: auto;
       padding: 0px;
-      display: flex;
+      //display: flex;
       align-items: center; /* center the items vertically */
       border: 1px solid black; /* add a border to the navbar */
-      border-radius: 20px;
-      width: fit-content;
+      //border-radius: 20px;
+      
     }
     
       
