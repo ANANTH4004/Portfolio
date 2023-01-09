@@ -4,6 +4,7 @@ import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 
 const routes: Routes = [
@@ -12,9 +13,9 @@ const routes: Routes = [
   {path:'contact' , component: ContactComponent},
   {path:'skills' , component:SkillsComponent},
   {path:'education' , component:EducationComponent},
-  {path:'projects' , component:EducationComponent},
-  {path:'experience',component:ExperienceComponent}
- 
+  {path:'projects' , component:ProjectsComponent},
+  {path:'experience',component:ExperienceComponent},
+
 ];
 
 @NgModule({
