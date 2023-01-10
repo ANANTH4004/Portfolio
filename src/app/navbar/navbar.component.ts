@@ -23,18 +23,10 @@ import { writingAnimation } from "../Writing-animation";
 })
 export class NavbarComponent {
 
-  // constructor(private matIconRegistry: MatIconRegistry ,   private domSanitizer: DomSanitizer){
-  //   this.matIconRegistry.addSvgIcon(
-  //     "Experience",
-  //     this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/Images/experience-transfer.svg")
-  //   );
-  // }
+
   visible = 'hidden';
   left = '50%';
   right = '50%';
-
-
-
   ngOnInit() {
     window.addEventListener('scroll', this.scrollEvent.bind(this));
   }

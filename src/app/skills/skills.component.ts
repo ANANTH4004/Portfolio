@@ -9,5 +9,6 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent {
+  hovered : boolean = false;
 
 }

@@ -1,9 +1,12 @@
 .page {
+  padding-top: 10px;
     display: flex;
     border-radius: 40px;
+    padding-left: 8%;
   }
   
   .page-image {
+    
     flex: 0 0 auto;
     width: 300px;
   }
@@ -14,8 +17,9 @@
   }
   
   .page-content {
+    padding-left: 6%;
     flex: 1 1 auto;
-    padding: 30px;
+   // padding: 30px;
     line-break:normal;
     line-height: 1cm;
     border-radius: 40px;
@@ -23,10 +27,11 @@
   }
   
   .cenDiv {
-    padding-left: 30%;
+   // padding-left: 30%;
     padding-top: 20%;
-    display: flex;
-    flex-direction: column;
+   // display: flex;
+    flex-wrap: wrap;
+   align-items: center;
     justify-content: center;
   }
   a {

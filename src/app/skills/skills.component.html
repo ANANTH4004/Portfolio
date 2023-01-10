@@ -4,13 +4,19 @@
 
   <p class="page1">SKILLS<p>
   <div class="container"> 
-  <mat-card >
+    <mat-card (mouseenter)="hovered = true" (mouseleave)="hovered = false">
     <mat-card-header class="cardHeader">
       <mat-card-title>Angular</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      <img  style="height: 170px;" src="../../assets/SkillsImages/angularp.png" >
+        <img style="height: 170px;" src="../../assets/SkillsImages/angularp.png">
     </mat-card-content>
+   <mat-card-footer>
+    <div class="progress-container">
+      <progress ></progress> 
+    </div>
+    <h2 style="display:inline;padding-left:3%;">80%</h2>
+     </mat-card-footer>
   </mat-card>  
   <mat-card>
     <mat-card-header class="cardHeader">
@@ -20,6 +26,12 @@
     <mat-card-content>
       <img style="height: 170px;" src="../../assets/SkillsImages/cdnlogo.com_c-sharp.png" mat-card-lg-image />
     </mat-card-content>
+    <mat-card-footer>
+      <div class="progress-container">
+        <progress ></progress> 
+      </div>
+      <h2 style="display:inline;padding-left:3%;">80%</h2>
+       </mat-card-footer>
   </mat-card>
   
   <mat-card>
@@ -51,6 +63,12 @@
       <mat-card-content>
        <img src="../../assets/SkillsImages/types.png" mat-card-lg-image />
       </mat-card-content>
+      <mat-card-footer>
+        <div class="progress-container">
+          <progress ></progress> 
+        </div>
+        <h2 style="display:inline;padding-left:3%;">80%</h2>
+         </mat-card-footer> 
     </mat-card>
     <mat-card>
       <mat-card-header class="cardHeader">

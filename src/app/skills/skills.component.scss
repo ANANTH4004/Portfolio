@@ -131,4 +131,25 @@ mat-card-title{
            flex-direction: column;
          }
        }
-  
+       .progress-container {
+        position: relative;
+        display: inline-block;
+        background: #eee;
+        height: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      .progress-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 80%;
+        background: rgb(41, 56, 151);
+      }
+       progress {
+        opacity: 0;
+      }
+      
+      

@@ -17,6 +17,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {MatCardModule} from '@angular/material/card';
 import { HttpClientModule } from "@angular/common/http";
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
+
 
 import { writingAnimation } from './Writing-animation';
 import { ContactComponent } from './contact/contact.component';
@@ -29,6 +32,8 @@ import { SnavbarComponent } from './snavbar/snavbar.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 
+import { NgCircleProgressModule } from "ng-circle-progress";
+import { SkillComponent } from './skill/skill.component';
 
 
 
@@ -47,6 +52,8 @@ import { ProjectsComponent } from './projects/projects.component';
     ExperienceComponent,
     SnavbarComponent,
     ProjectsComponent,
+    SkillComponent,
+    
     
   ],
   imports: [
@@ -54,9 +61,10 @@ import { ProjectsComponent } from './projects/projects.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NoopAnimationsModule,
+   
     MatFormFieldModule,
     MatMenuModule,
+    MatProgressBarModule,
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
@@ -64,7 +72,21 @@ import { ProjectsComponent } from './projects/projects.component';
     MatButtonModule,
     MatCardModule,
     HttpClientModule,
-   
+    NgCircleProgressModule.forRoot({
+     
+      backgroundColor: "teal",
+      backgroundPadding: 8,
+      radius: 60,
+      space: -15,
+      maxPercent: 100,
+      unitsColor: "#ffffff",
+      outerStrokeWidth: 7.5,
+      outerStrokeColor: "white",
+      innerStrokeColor: "teal",
+      innerStrokeWidth: 3,
+      titleColor: "#ffffff",
+      subtitleColor: "#ffffff"
+    })
 
   ],
   

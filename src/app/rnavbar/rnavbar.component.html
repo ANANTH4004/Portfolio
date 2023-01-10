@@ -2,14 +2,14 @@
     <button mat-icon-button (click)="sidenav.toggle()" *ngIf="isMobile$ |async">
       <mat-icon>menu</mat-icon>
     </button>
-    <mat-toolbar-row *ngIf="!(isMobile$ |async)">
+    <mat-toolbar-row *ngIf="!(isMobile$ |async)" class="deskNavbar">
       <a mat-button routerLink="/home">
-        <mat-icon>home</mat-icon>Home
+        <mat-icon>home</mat-icon>About
       </a>
       <a mat-button routerLink="/experience">
         <mat-icon>assignment</mat-icon> Experience
       </a>
-      <a mat-button routerLink="/skills">
+      <a mat-button routerLink="/skill">
         <mat-icon>assessment</mat-icon> Skills
       </a>
       <a mat-button routerLink="/projects">
@@ -28,9 +28,9 @@
     <mat-sidenav #sidenav mode="side" [fixedInViewport]="true">
         <mat-nav-list>
           <a mat-list-item routerLink="/home" (click)="sidenav.close()">Home</a>
-          <a mat-list-item routerLink="/home" (click)="sidenav.close()">Home</a>
+          <a mat-list-item routerLink="/home" (click)="sidenav.close()">About</a>
           <a mat-list-item routerLink="/experience" (click)="sidenav.close()">Experience</a>
-          <a mat-list-item routerLink="/skills" (click)="sidenav.close()">Skills</a>
+          <a mat-list-item routerLink="/skill" (click)="sidenav.close()">Skills</a>
           <a mat-list-item routerLink="/education" (click)="sidenav.close()">Education</a>
           <a mat-list-item routerLink="/projects" (click)="sidenav.close()">Projects</a>
           

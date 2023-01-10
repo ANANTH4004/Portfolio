@@ -70,10 +70,9 @@
 //     height: auto;
 //   }
 // }
-
-
-
-
+.page1{
+  font-weight: bolder;
+}
 .page {
   display: flex;
 }
@@ -124,6 +123,9 @@ a:hover {
 
 .icon {
   width: 40px;
+}
+mat-card{
+  background-color: transparent;
 }
 
 @media (max-width: 600px) {

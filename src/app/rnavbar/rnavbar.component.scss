@@ -1,3 +1,30 @@
+
+@media (max-width: 599px) {
+  .sidenav-container {
+height: 100%;
+}
+mat-sidenav {
+width: 200px;
+}
+mat-toolbar-row {
+display: flex;
+justify-content: flex-end; /* align the items to the right on mobile devices */
+padding: 30px;
+color: black;
+}
+
+a {
+color: black;
+background-color: transparent;
+margin: 0 10px;
+}
+
+a:hover {
+color: black;
+background-color: rgb(0, 128, 255); /* change the background color of the navbar items to gray when the mouse hovers over them */
+}
+}
+
 // a {
 //     color: black;
 //     background-color: transparent;
@@ -41,63 +68,54 @@
 //       width: 200px;
 //     }
 //   }
-@media (max-width: 599px) {
-        .sidenav-container {
-      height: 100%;
-    }
-    mat-sidenav {
-      width: 200px;
-    }
-  mat-toolbar-row {
 
-    display: flex;
-    justify-content: flex-end; /* align the items to the right on mobile devices */
-    padding: 30px;
-    color: black;
-  }
-
-  a {
-    color: black;
-    background-color: transparent;
-    margin: 0 10px;
-  }
-
-  a:hover {
-    color: black;
-    background-color: rgb(0, 128, 255); /* change the background color of the navbar items to gray when the mouse hovers over them */
-  }
-}
   
   a {
+    background: none;
+    font-size: 18px;
     color:black;
     background-color: transparent;
     margin: 0 10px;
   }
   
   a:hover {
+    background: none;
+    font-size: 18px;
     color: black;
     background-color:rgb(0, 128, 255); /* change the background color of the navbar items to gray when the mouse hovers over them */
   }
   
   
   mat-toolbar-row {
+    justify-content: end;
+    //size: 45px;
+    align-content: flex-end;
       padding: 30px;
       color: black;
     }
     
     mat-toolbar {
       position: fixed;
-      top: 0;
-      left: 0;
+      top: 80;
+      left: 80;
       right: 0;
       z-index: 999;
       margin: auto;
-      padding: 0px;
-      //display: flex;
+      padding: 4px;
+      display: flex;
       align-items: center; /* center the items vertically */
-      border: 1px solid black; /* add a border to the navbar */
+      //border: 1px solid black; /* add a border to the navbar */
       //border-radius: 20px;
       
     }
+    .deskNavbar{
+      display: flex;
+      justify-items: end;
+    }
+  
+      .custom-color {
+    // background-color: rgb(9, 214, 214);
+    background-color:palegreen;
+  }
     
       

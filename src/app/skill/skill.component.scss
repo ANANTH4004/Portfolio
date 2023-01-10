@@ -1,0 +1,19 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.parent div {
+  margin: 30px;
+}
+
+.child {
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+
+  &:hover {
+    transform: scale(1.3);
+  }
+}

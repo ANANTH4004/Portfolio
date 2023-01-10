@@ -6,6 +6,7 @@ import { DomSanitizer } from "@angular/platform-browser";
 import { writingAnimation } from './Writing-animation';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 // import Typewriter from 't-writer.js'
 
