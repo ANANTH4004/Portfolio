@@ -9,18 +9,18 @@
     border-radius: 2%;
   }
 mat-card{
- 
   width: 60%;
-  background-color: aquamarine;
+  background-color: rgb(154, 197, 182);
+ 
+  border-radius: 2.5%;
   transition: transform 0.5s ;
   transform-style: preserve-3d;
-  border-radius: 2.5%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
   &:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  }
+    transform: scale(1.05);
+     box-shadow: 3px 3px 3px 3px rgb(2, 70, 112);
+   }
 }
 p{
   padding-left: 3%;
@@ -49,5 +49,6 @@ p{
     .center {
       padding: 4;
     }
+   
   }
   

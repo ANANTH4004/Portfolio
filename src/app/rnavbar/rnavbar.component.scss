@@ -73,7 +73,7 @@ background-color: rgb(0, 128, 255); /* change the background color of the navbar
   a {
     background: none;
     font-size: 18px;
-    color:black;
+    color:white;
     background-color: transparent;
     margin: 0 10px;
   }
@@ -81,7 +81,7 @@ background-color: rgb(0, 128, 255); /* change the background color of the navbar
   a:hover {
     background: none;
     font-size: 18px;
-    color: black;
+    color: white;
     background-color:rgb(0, 128, 255); /* change the background color of the navbar items to gray when the mouse hovers over them */
   }
   
@@ -91,7 +91,7 @@ background-color: rgb(0, 128, 255); /* change the background color of the navbar
     //size: 45px;
     align-content: flex-end;
       padding: 30px;
-      color: black;
+      color: white;
     }
     
     mat-toolbar {
@@ -115,7 +115,7 @@ background-color: rgb(0, 128, 255); /* change the background color of the navbar
   
       .custom-color {
     // background-color: rgb(9, 214, 214);
-    background-color:rgb(240, 198, 147);
+    background-color:rgb(71, 86, 107)
   }
     
       

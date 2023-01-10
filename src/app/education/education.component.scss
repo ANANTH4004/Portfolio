@@ -138,13 +138,13 @@ mat-card {
   text-align: center;
   border-radius: 20px;
   border-color: rgb(0, 11, 11);
-  transition: transform 0.5s;
-  transform-style: preserve-3d;
+  transition: transform 0.3s;
+ transform-style: preserve-3d;
   background-color:rgb(245, 231, 246);;
 
   &:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   transform: scale(1.05);
+    box-shadow: 0 0 15px 10px rgb(2, 70, 112);
   }
   &-header {
     color: #070707;

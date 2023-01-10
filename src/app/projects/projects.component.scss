@@ -18,21 +18,18 @@
   mat-card {
     display: block;
     margin-bottom: 10px;
-    background-color: rgb(231, 196, 120);
+    background-color:rgb(245, 231, 246);
     border-color:rgb(0, 11, 11);
-      transition: transform 0.5s ,box-shadow 0.3s;
-      transform-style: preserve-3d;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      overflow: hidden;
-      &:active{
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      }
-      &:hover {
-        cursor: pointer;
-        transform: scale(1.1);
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        
-      }
+    transition: transform 0.5s ;
+    transform-style: preserve-3d;
+   // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+       box-shadow: 3px 3px 3px 3px rgb(2, 70, 112);
+     }
+    
   }
 
   mat-card-header{

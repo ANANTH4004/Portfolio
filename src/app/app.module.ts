@@ -60,8 +60,6 @@ import { SkillComponent } from './skill/skill.component';
     FormsModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-   
     MatFormFieldModule,
     MatMenuModule,
     MatProgressBarModule,
@@ -73,7 +71,6 @@ import { SkillComponent } from './skill/skill.component';
     MatCardModule,
     HttpClientModule,
     NgCircleProgressModule.forRoot({
-     
       backgroundColor: "teal",
       backgroundPadding: 8,
       radius: 60,
@@ -86,7 +83,8 @@ import { SkillComponent } from './skill/skill.component';
       innerStrokeWidth: 3,
       titleColor: "#ffffff",
       subtitleColor: "#ffffff"
-    })
+    }),
+     BrowserAnimationsModule,
 
   ],
   
