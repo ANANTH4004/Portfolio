@@ -13,6 +13,10 @@ import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit{
+
+  
+  emoji = '🙂';
+
   constructor(private matIconRegistry: MatIconRegistry , private domSanitizer: DomSanitizer){
     this.matIconRegistry.addSvgIcon(
       "Experience",
@@ -26,34 +30,9 @@ export class HomeComponent implements OnInit{
  Typewriter(){
   
   const target1 = document.querySelector('.tw');
-    // const writer = new Typewriter(target, {
-    //   loop: false,
-    //   animateCursor:true,
-    //   typeSpeed : 20,
-    //  // typeColor: 'rgb(0, 0, 68)'
-    // })
+ 
     const target2 = document.querySelector('.type-text');
-    // const writer1 = new Typewriter(target, {
-    //   loop: false,
-    //   animateCursor:true,
-    //   typeSpeed : 80,
-    //   typeColor: 'red'
-    // })
-    // writer
-    //   .type('I am a ')
-    //   .rest(500)
-    //   .removeCursor()
-      // .rest(2000)
-      // .type(' Currently working at Mphasis Limited.I have been working in the field of software development for number] years and have a strong foundation in [technical skills or technologies you have experience with].')
-      // .rest(2000)
-      // .type(' I am passionate about creating high-quality software solutions and constantly strive to learn and improve my skills.') 
-      // .rest(2000)
-      // .type(' In my current role at Mphasis, I have had the opportunity to work on a variety of projects and have gained valuable experience in [specific areas or technologies you have worked with].')
-      // .rest(2000)
-      // .type(' In my free time, I enjoy [hobbies or interests] and am always looking for new challenges and opportunities to grow as a developer.I am excited to share some of my past projects and experiences with you through this portfolio and hope to have the opportunity to work with you in the future.')
-      //  .start()
-      //  writer1
-      //  .type('Software Developer').start().removeCursor()
+  
       const writer1 = new Typewriter(target1, {
         typeSpeed: 20 
       })
@@ -66,7 +45,7 @@ export class HomeComponent implements OnInit{
       })
       const writer4 = new Typewriter(target1, {
         typeSpeed: 20,
-        typeColor:'rgb(189,0,67)'
+        typeColor:'green'
       })
       const writer5 = new Typewriter(target2, {
         typeSpeed: 20,
@@ -86,7 +65,7 @@ writer2
   .rest(500)
   .then(writer1.start.bind(writer3))
 writer3
-  .type(' Currently working at Mphasis Limited.I am a')
+  .type(' currently working at Mphasis Limited.I am a')
   .removeCursor()
   .rest(500)
   .then(writer1.start.bind(writer4))     

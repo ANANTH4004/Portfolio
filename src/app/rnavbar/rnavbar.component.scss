@@ -2,9 +2,11 @@
 @media (max-width: 599px) {
   .sidenav-container {
 height: 100%;
+
 }
 mat-sidenav {
 width: 200px;
+background-color: #c5dcdc;
 }
 mat-toolbar-row {
 display: flex;
@@ -14,6 +16,7 @@ color: black;
 }
 
 a {
+  font-family: 'Lato';
 color: black;
 background-color: transparent;
 margin: 0 10px;
