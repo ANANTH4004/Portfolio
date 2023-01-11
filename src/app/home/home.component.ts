@@ -14,7 +14,6 @@ import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform
 })
 export class HomeComponent implements OnInit{
 
-  
   emoji = '🙂';
 
   constructor(private matIconRegistry: MatIconRegistry , private domSanitizer: DomSanitizer){
