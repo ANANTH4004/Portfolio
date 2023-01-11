@@ -23,9 +23,10 @@
     line-break:normal;
     line-height: 1cm;
     border-radius: 40px;
-   
   }
-  
+  ::ng-deep .no-background {
+    background: none;
+  }
   .cenDiv {
    // padding-left: 30%;
     padding-top: 20%;
@@ -64,7 +65,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 50px;
+   // padding-right: 50px;
   }
 
   .form-control {

@@ -2,7 +2,7 @@
 <br>
 <br>
 
-  <p class="page1">CONTACT<p>
+  <p class="page1" style="padding-left: 28%;">CONTACT<p>
 <div class="page">
     <div class="page-image">
       <div><img src="../assets/Images/anandp.webp" alt="Your Picture"></div>
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="page-content">
-      <mat-card style="height: 500px; width: 800px; background-color: rgb(196, 236, 236); border-radius: 40px;">
+      <mat-card class="no-background" style="height: 500px; width: 800px; background-color:transparent;background: none; border-radius: 40px;">
         <div class="form-container">
             <form (ngSubmit)="onSubmit()">
               <div class="form-row" >
@@ -31,7 +31,7 @@
                   <input type="text" class="form-control" [(ngModel)]="name" name="name" placeholder="Name" required>
                 </div>
                 <div class="form-group ">
-                  <input type="email" class="form-control" [(ngModel)]="email" name="email" placeholder="Email" required>
+                  <input type="email" class="form-control" [(ngModel)]="email" name="email" placeholder="Subject" required>
                 </div>
               </div>
               <div class="form-group">
