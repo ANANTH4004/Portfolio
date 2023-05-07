@@ -62,7 +62,7 @@ onSubmit(): void {
   //     console.error(error);
   //   });
   // }
-  this.link = `mailto:balamuruganananth@gmail.com?subject=${this.name}&body=${this.message}`;
+  this.link = `mailto:balamuruganananth@gmail.com?subject=${this.email}&body=${this.message}  %0d%0a Regards,  %0d%0a ${this.name}`;
   window.open(this.link,'_blank')
 }
 }
