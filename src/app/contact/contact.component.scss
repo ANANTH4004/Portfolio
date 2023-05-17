@@ -2,7 +2,7 @@
   padding-top: 10px;
     display: flex;
     border-radius: 40px;
-    padding-left: 8%;
+    padding-left: 3%;
   }
   
   .page-image {
@@ -69,6 +69,7 @@
   }
 
   .form-control {
+    background-color: azure;
     border: 1px solid rgb(8, 8, 8);
     border-radius: 4px;
     padding: 12px;
@@ -82,9 +83,11 @@
     border-color: #555;
   }
   .form-group{
+   
     padding: 10px;
   }
   textarea{
+    background-color: aliceblue;
     height: 200px;
   }
 
